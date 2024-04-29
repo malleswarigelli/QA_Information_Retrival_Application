@@ -20,8 +20,14 @@ pip install -r requirements.txt
 ```
 
 ```bash
-python app.py
+streamlit run StreamlitApp.py
 ```
 
 ## Set Environment variables
 GOOGLE_API_KEY = get from .env 
+
+## Streamlit application
+http://localhost:8501/
+
+
+
