@@ -12,18 +12,21 @@ In terminal -->
 - pip install -r requirements.txt
 - streamlit run StreamlitApp.py
 - http://localhost:8501/
-- Application interface
+  
+### Application interface
+
 ![Streamlit QA sys application interface](https://github.com/malleswarigelli/QA_Information_Retrival_Application/assets/84688050/d84cef4c-17b7-45fa-aca5-23e9a1efb9e3)
 
--Application facilitates loading any number of files from `your local directory`
+### Application facilitates loading any number of files from `your local directory`
 ![Load multiple files](https://github.com/malleswarigelli/QA_Information_Retrival_Application/assets/84688050/08dd0abf-5227-4c64-8f6f-8497c817f6ae)
-- After uploading files, ask question and retrive information as below...........
+
+### After uploading files, ask question and retrive information as below...........
 ![QA](https://github.com/malleswarigelli/QA_Information_Retrival_Application/assets/84688050/938118ca-cc8e-4410-988f-c3c2f4027c89)
 
-- Ask another question
-  ![QA2](https://github.com/malleswarigelli/QA_Information_Retrival_Application/assets/84688050/4e473f2c-c345-48cd-a18d-eb17cf39cf17)
+### Ask another question
+![QA2](https://github.com/malleswarigelli/QA_Information_Retrival_Application/assets/84688050/4e473f2c-c345-48cd-a18d-eb17cf39cf17)
 
-- What happens if you query for information not exist in your input documents.......
+### What happens if you query for information not exist in your input documents.......
 ![no_ans](https://github.com/malleswarigelli/QA_Information_Retrival_Application/assets/84688050/97b4ffc9-5216-4fd6-8fd5-54433425a606)
 
 
