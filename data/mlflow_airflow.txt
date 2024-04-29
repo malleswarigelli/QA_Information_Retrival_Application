@@ -1,0 +1,56 @@
+MLflow
+Open source platform provides tools and simplifying processes to streamline the ML lifecycle (dev, deployment) and foster collaboration among ML practitioners.
+
+Components
+
+MLflow Tracking: provides API & UI to log parameters, code versions, metrics, artifacts during ML process. This centralized repository stores parameters, metrics, artifacts, data, env configs, giving teams insight into their model’s evolution over time. Tracking facilitates logging of results either to localfiles or server, allows to compare multiple runs/experiments across different users
+Model Registry: systematic approach to model management
+Centralized model store, APIs, UIs; allows to collaboratively manage MLflow model’s life cycle i.e model lineage, versioning, tagging, aliasing,annotations
+Evaluate: designed for in depth model analysis, facilitate model comparison i.e traditional ML algorithms or cutting edge LLMs
+Prompt Engineering UI: provides space for prompt experimentation, refinement, evaluation, testing, and deployment.
+Recipes: Serving as a guide for structuring ML projects
+Projects: MLflow Projects standardize the packaging of ML code, workflows, and artifacts, akin to an executable. 
+Each project, be it a directory with code or a Git repository, employs a descriptor or convention to define its dependencies and execution method
+
+
+Airflow
+open source platform for orchestrating and scheduling, automating complex workflows (create and monitor workflow schedules)
+Workflow: ~ETL (data extraction, transformation, loading: Data Eng; data ingestion, validation, transformation, training … Data Sci)
+Airflow 
+orchestrates various steps of your pipeline/ workflow
+Airflow → developed by Airbnd in 2014 as data management, orchestrating workflows makes data eng effective
+user friendly UI, higher scalability, easier scheduling workflows
+AIRFLOW -> best data orchestration tool for data eng’s
+
+Best Use-cases:
+ETL for data eng, data warehouse, data analysis
+Automates—> extracting data from various sources, transforms data and load into data warehouse. Maintains accuracy of data, to go tool for managing automation of complex datasets ETL
+
+Benefits: 
+higher flexibility (can optimize workflows to your need), scalability (simple to petabyte data), operators and sensors, plugin ecosys, community support (popular). 
+Robust workflow automation tool → orchestrates data pipelines very easily
+
+Setup airflow in windows
+Need Docker Desktop, VSCode in your pc
+Create project folder in vscode
+Download file: https:airflow.apache.org/docs/apache-airflow/2.5.1/docker-compose.yaml
+Create .env folder, add
+AIRFLOW_IMAGE_NAME= apache/airflow:2.4.2
+AIRFLOW_UID=50000
+Open terminal → docker-compose up -d (sets up airflow automatically)
+Localhost:8080 -> airflow window -> username: admin, password: admin
+Open terminal —> type this
+docker-compose run airflow-scheduler airflow users create --username adminn --password admin --firstname Admin --lastname User --role Admin --email admin@superhero.org
+
+Components of Airflow
+DAGs: Directed Acyclic Graphs→ mathematical structures represent workflow as a collection of tasks connected by dependencies. DAGs ensure tasks execute in a specific order, with no circular dependencies or loops.
+
+
+
+
+
+
+
+
+
+
